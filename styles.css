@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.social-link-profile-card-container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 300px;
+    height: 490px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.social-profile-pic-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-profile-pic {
+    border-radius: 50%;
+}
+
+.social-profile-owner-name {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.social-profile-owner-address {
+    color: hsl(75, 94%, 57%);
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-profile-owner-bio {
+    font-weight: 100;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.social-profile-links-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.social-profile-links-container a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    min-width: 80%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.attribution {
+    margin-top: 10px;
+}
